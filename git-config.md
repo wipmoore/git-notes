@@ -46,6 +46,10 @@ git config --global alias.s "status -s -b"
 git config --global alias.cf 'show --pretty="" --name-only'
 ```
 
+### Git diff highlight trailing whitespace
+```
+git config --global core.whitespace trailing-space
+```
 
 ## References
 
