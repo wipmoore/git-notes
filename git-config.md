@@ -14,6 +14,8 @@ curl -O git-completion.bash https://raw.githubusercontent.com/git/git/master/con
 cat git-completion.bash >> ~/.bashrc
 ```
 
+## Commands
+
 ### Turn off fast forward merge
 
 ```
