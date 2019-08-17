@@ -23,10 +23,14 @@ git checkout HEAD <file>
 git log master --oneline --first-parent
 ```
 
-
-- View a list of changes on a merged branch
+- View commits on a branch that have not been merged into master
 
 ```
-git show <merge commit>
-git log <second parent> <first parent> --oneline
+git log master..<branch>
 ```
+
+- Compare two branches for comits that have not been merged
+```
+git log master...<branch>
+```
+
